@@ -1,0 +1,75 @@
+html {
+	font-size: 10px
+}
+
+body {
+	font-family: Work Sans, Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 1.8;
+	color: #5d5d5d;
+	-webkit-font-smoothing: antialiased
+}
+
+a {
+	background-color: transparent;
+	text-decoration: none;
+	color: inherit;
+	-webkit-tap-highlight-color: transparent;
+	outline: none
+}
+
+.hero_link {
+	color: #5547e5;
+	transition: color .25s ease
+}
+
+.hero_link:hover {
+	color: #5d5d5d;
+}
+
+.hero {
+	position: relative;
+	z-index: 10
+}
+
+.container {
+	position: relative;
+	z-index: 10;
+	width: 80%;
+	margin:auto;
+}
+
+
+.hero_container {
+	position: relative;
+	z-index: 10;
+	width: 80%;
+	max-width: 1400px;
+	margin:auto;
+}
+
+.hero_title {
+	position: relative;
+	max-width: 840px;
+	margin-top: .5em;
+	margin-bottom: 1.5em;
+	letter-spacing: -1px;
+	line-height: 1.7;
+	font-size: 3rem;
+	font-weight: 400
+}
+
+@media screen and (min-width:768px) {
+	.hero__title {
+		margin-top: 1.25em;
+		margin-bottom: 2.5em;
+		line-height: 68px;
+		font-size: 3.8rem
+	}
+}
+
+.work {
+	background: #fbfbfb;
+	padding-top: 50px;
+}
